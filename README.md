@@ -1,4 +1,4 @@
-# Desafio-Analista-de-Qualidade-de-Software-Junior
+# DESAFIO BEEDOO
 
 # User Story
 
@@ -20,15 +20,15 @@ Para que esses cursos sejam listados na tela de listagem de cursos.
 
 ## ** Decisões Tomadas:**
 
-### -- Análise dos Requisitos do Projeto:
+### Análise dos Requisitos do Projeto:
 Garantir que a user story cubra todos os aspectos essenciais para a funcionalidade correta do formulário e a integração com a tela de listagem de cursos.
 
-### -- Entendimento das Necessidades do Usuário:
+### Entendimento das Necessidades do Usuário:
 Facilitar a usabilidade do formulário, garantindo que todos os dados essenciais sejam coletados e exibidos corretamente na tela de listagem.
 
-### -- Validação dos Campos:
+### Validação dos Campos:
 Reduzir erros de entrada de dados e melhorar a qualidade dos dados coletados.
 
-### -- Acessibilidade e Usabilidade:
+### Acessibilidade e Usabilidade:
 Tornar o sistema inclusivo, permitindo que todos os usuários possam utilizá-lo sem barreiras.
 
