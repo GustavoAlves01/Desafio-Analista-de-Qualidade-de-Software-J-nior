@@ -91,3 +91,4 @@ Evidência do Teste - [Caso de Teste 5 - Exclusão de Curso](https://drive.googl
 - Melhorar as mensagens de erro para que sejam mais informativas e específicas sobre o que está errado e como corrigir.
 - Garantir que o formulário de cadastro de cursos e a tela de listagem sejam responsivos e com um melhor layout.
 - Botão de cadastrar curso poderia estar desabilitado até que todos os campos estejam preenchidos corretamente.
+- Permitir que possa ser editado os cursos já cadastrados diretamente da tela de listagem.
