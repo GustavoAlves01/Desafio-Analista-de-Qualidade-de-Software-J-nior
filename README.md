@@ -14,22 +14,21 @@ Para que esses cursos sejam listados na tela de listagem de cursos.
 - Se o tipo de curso for presencial, um campo para endereço deve ser exibido.
 - Se o tipo de curso for online, um campo para o link da inscrição deve ser exibido.
 - Todos os campos devem ser obrigatórios e validados corretamente.
-- O botão de cadastrar curso deve estar desabilitado até que todos os campos estejam preenchidos corretamente.
 - Após o envio bem-sucedido, o curso deve ser listado na tela de listagem de cursos.
 - Em caso de erro, uma mensagem de erro apropriada deve ser exibida.
 
-## Decisões Tomadas:
+## Decisões Tomadas
 
-- Análise dos Requisitos do Projeto:
+### Análise dos Requisitos do Projeto:
 Garantir que a user story cubra todos os aspectos essenciais para a funcionalidade correta do formulário e a integração com a tela de listagem de cursos.
 
-- Entendimento das Necessidades do Usuário:
+### Entendimento das Necessidades do Usuário:
 Facilitar a usabilidade do formulário, garantindo que todos os dados essenciais sejam coletados e exibidos corretamente na tela de listagem.
 
-- Validação dos Campos:
+### Validação dos Campos:
 Reduzir erros de entrada de dados e melhorar a qualidade dos dados coletados.
 
-- Acessibilidade e Usabilidade:
+### Acessibilidade e Usabilidade:
 Tornar o sistema inclusivo, permitindo que todos os usuários possam utilizá-lo sem barreiras.
 
 ## Casos de Teste
@@ -41,7 +40,7 @@ Tornar o sistema inclusivo, permitindo que todos os usuários possam utilizá-lo
 Passos:
 1. Navegue até a tela de cadastro de cursos.
 2. Preencha todos os campos corretamente:
-3. Clique no botão "Cadastrar".
+3. Clique no botão "Cadastrar Curso".
 4. Verifique se o curso foi listado na aba "Listar Cursos".
 
 Evidência do Teste - [Caso de Teste 1 - Cadastro com Sucesso](https://drive.google.com/file/d/17_yecmiT2vCArfUdKgqiu1Z7gVcwXOrM/view?usp=drive_link)
@@ -50,7 +49,7 @@ Evidência do Teste - [Caso de Teste 1 - Cadastro com Sucesso](https://drive.goo
 Passos:
 1. Navegue até a tela de cadastro de cursos.
 2. Deixe algum campo obrigatório vazio (por exemplo, "Nome do curso").
-3. Clique no botão "Cadastrar".
+3. Clique no botão "Cadastrar Curso".
 4. Verifique se o sistema permite o cadastro do curso e se não foi exibida uma mensagem de erro específica para o campo faltante.
  
 Evidência do Teste - [Caso de Teste 2 - Cadastro com Campos Vazios](https://drive.google.com/file/d/113nUypCKq4MBqKodn5IOKvmhNl7CX-Ax/view?usp=drive_link)
@@ -59,7 +58,7 @@ Evidência do Teste - [Caso de Teste 2 - Cadastro com Campos Vazios](https://dri
 Passos:
 1. Navegue até a tela de cadastro de cursos.
 2. Preencha os campos de data com uma "Data de início" posterior à "Data de fim" (por exemplo, Data de início: "2023-12-31" e Data de fim: "2023-01-01").
-4. Clique no botão "Cadastrar".
+4. Clique no botão "Cadastrar Curso".
 5. Verifique se o sistema permite o cadastro do curso e se não foi exibida uma mensagem de erro "A data final deve ser posterior à data inicial".
 
 Evidência do Teste - [Caso de Teste 3 - Cadastro com Datas Inválidas](https://drive.google.com/file/d/1flaJ-C41w77ezAZfxl-ZJXjs8_Nu8rzJ/view?usp=drive_link)
@@ -68,7 +67,7 @@ Evidência do Teste - [Caso de Teste 3 - Cadastro com Datas Inválidas](https://
 Passos:
 1. Navegue até a tela de cadastro de cursos.
 2. Preencha o campo "URL da imagem de capa" com uma URL inválida (por exemplo, "invalid-url").
-3. Clique no botão "Cadastrar".
+3. Clique no botão "Cadastrar Curso".
 4. Verifique se o sistema permite o cadastro do curso e se não foi exibida uma mensagem de erro "URL da imagem inválida".
 
 Evidência do Teste - [Caso de Teste 4 - Cadastro de Curso com URL Inválida](https://drive.google.com/file/d/1UtYai5R6L749iQmO60HlIFo3kcTt6Eo0/view?usp=drive_link)
@@ -81,3 +80,12 @@ Passos:
 4. Verifique se o curso não está mais listado na tela de listagem de cursos.
 
 Evidência do Teste - [Caso de Teste 5 - Exclusão de Curso](https://drive.google.com/file/d/1KH-DO64lvAv_DW-jfiUKYrp14E1Qiiny/view?usp=drive_link)
+
+## Relatório de Bugs
+[Relatório de Bugs](https://docs.google.com/spreadsheets/d/1tOTuahsFC1E6z0KEwd7Gfh-2ofOVx0JbOc6RGjN_MAg/edit?usp=sharing)
+
+## Sugestões de Melhoria para Usabilidade
+- Implementar validação em tempo real para os campos obrigatórios do formulário.
+- Melhorar as mensagens de erro para que sejam mais informativas e específicas sobre o que está errado e como corrigir.
+- Garantir que o formulário de cadastro de cursos e a tela de listagem sejam responsivos e com um melhor layout.
+- Botão de cadastrar curso poderia estar desabilitado até que todos os campos estejam preenchidos corretamente.
