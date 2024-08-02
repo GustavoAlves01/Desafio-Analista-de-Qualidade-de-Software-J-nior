@@ -1,0 +1,1 @@
+# Desafio-Analista-de-Qualidade-de-Software-J-nior
