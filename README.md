@@ -84,7 +84,7 @@ Passos:
 Evidência do Teste - [Caso de Teste 5 - Exclusão de Curso](https://drive.google.com/file/d/1KH-DO64lvAv_DW-jfiUKYrp14E1Qiiny/view?usp=drive_link)
 
 ## Relatório de Bugs
-[Relatório de Bugs](https://docs.google.com/spreadsheets/d/1tOTuahsFC1E6z0KEwd7Gfh-2ofOVx0JbOc6RGjN_MAg/edit?usp=sharing)
+[Planilha de Relatório de Bugs](https://docs.google.com/spreadsheets/d/1tOTuahsFC1E6z0KEwd7Gfh-2ofOVx0JbOc6RGjN_MAg/edit?usp=sharing)
 
 ## Sugestões de Melhoria para Usabilidade
 - Implementar validação em tempo real para os campos obrigatórios do formulário.
