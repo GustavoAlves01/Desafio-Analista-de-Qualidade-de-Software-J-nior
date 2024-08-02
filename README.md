@@ -14,8 +14,10 @@ Para que esses cursos sejam listados na tela de listagem de cursos.
 - Se o tipo de curso for presencial, um campo para endereço deve ser exibido.
 - Se o tipo de curso for online, um campo para o link da inscrição deve ser exibido.
 - Todos os campos devem ser obrigatórios e validados corretamente.
-- Após o envio bem-sucedido, o curso deve ser listado na tela de listagem de cursos.
+- Após o envio bem-sucedido, uma confirmação visual deve ser exibida para garantir que o curso foi cadastrado e deve ser listado na tela de listagem de cursos.
 - Em caso de erro, uma mensagem de erro apropriada deve ser exibida.
+- O sistema deve permitir a exclusão de cursos e garantir que o curso seja removido da lista após a exclusão.
+- Após a exclusão, uma confirmação visual deve ser exibida para garantir que o curso foi removido com sucesso.
 
 ## Decisões Tomadas
 
