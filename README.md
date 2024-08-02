@@ -18,7 +18,7 @@ Para que esses cursos sejam listados na tela de listagem de cursos.
 - Após o envio bem-sucedido, o curso deve ser listado na tela de listagem de cursos.
 - Em caso de erro, uma mensagem de erro apropriada deve ser exibida.
 
-## ** Decisões Tomadas:**
+## Decisões Tomadas:
 
 ### Análise dos Requisitos do Projeto:
 Garantir que a user story cubra todos os aspectos essenciais para a funcionalidade correta do formulário e a integração com a tela de listagem de cursos.
