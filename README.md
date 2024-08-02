@@ -43,6 +43,7 @@ Passos:
 2. Preencha todos os campos corretamente:
 3. Clique no botão "Cadastrar".
 4. Verifique se o curso foi listado na aba "Listar Cursos".
+  Evidência do Teste - [Caso de Teste 1 - Cadastro com Sucesso](https://drive.google.com/file/d/17_yecmiT2vCArfUdKgqiu1Z7gVcwXOrM/view?usp=drive_link)
 
 ### Caso de Teste 2: Cadastro com Campos Vazios
 Passos:
@@ -50,6 +51,7 @@ Passos:
 2. Deixe algum campo obrigatório vazio (por exemplo, "Nome do curso").
 3. Clique no botão "Cadastrar".
 4. Verifique se o sistema permite o cadastro do curso e se não foi exibida uma mensagem de erro específica para o campo faltante.
+  Evidência do Teste - [Caso de Teste 2 - Cadastro com Campos Vazios](https://drive.google.com/file/d/113nUypCKq4MBqKodn5IOKvmhNl7CX-Ax/view?usp=drive_link)
 
 ### Caso de Teste 3: Cadastro com Datas Inválidas
 Passos:
@@ -57,6 +59,7 @@ Passos:
 2. Preencha os campos de data com uma "Data de início" posterior à "Data de fim" (por exemplo, Data de início: "2023-12-31" e Data de fim: "2023-01-01").
 4. Clique no botão "Cadastrar".
 5. Verifique se o sistema permite o cadastro do curso e se não foi exibida uma mensagem de erro "A data final deve ser posterior à data inicial".
+  Evidência do Teste - [Caso de Teste 3 - Cadastro com Datas Inválidas](https://drive.google.com/file/d/1flaJ-C41w77ezAZfxl-ZJXjs8_Nu8rzJ/view?usp=drive_link)
 
 ### Caso de Teste 4: Cadastro de Curso com URL Inválida
 Passos:
@@ -64,6 +67,7 @@ Passos:
 2. Preencha o campo "URL da imagem de capa" com uma URL inválida (por exemplo, "invalid-url").
 3. Clique no botão "Cadastrar".
 4. Verifique se o sistema permite o cadastro do curso e se não foi exibida uma mensagem de erro "URL da imagem inválida".
+  Evidência do Teste - [Caso de Teste 4 - Cadastro de Curso com URL Inválida](https://drive.google.com/file/d/1UtYai5R6L749iQmO60HlIFo3kcTt6Eo0/view?usp=drive_link)
 
 ### Caso de Teste 5: Exclusão de Curso
 Passos:
@@ -71,8 +75,4 @@ Passos:
 2. Verifique se existe um curso listado.
 3. Clique no botão "Excluir curso" do curso listado.
 4. Verifique se o curso não está mais listado na tela de listagem de cursos.
-
-## Evidências dos Testes
-
-- [Caso de Teste 1 - Cadastro com Sucesso]()
-- [Caso de Teste 2 - Cadastro com Campos Vazios]()
+  Evidência do Teste - [Caso de Teste 5 - Exclusão de Curso](https://drive.google.com/file/d/1KH-DO64lvAv_DW-jfiUKYrp14E1Qiiny/view?usp=drive_link)
