@@ -32,3 +32,6 @@ Reduzir erros de entrada de dados e melhorar a qualidade dos dados coletados.
 ### Acessibilidade e Usabilidade:
 Tornar o sistema inclusivo, permitindo que todos os usuários possam utilizá-lo sem barreiras.
 
+## Casos de Teste
+[Planilha de Casos de Teste](https://docs.google.com/spreadsheets/d/1Qr71w3px3hI-8yiCwXC1dDrGrHwPp5-AjKKGXFb2R6Y/edit?usp=sharing)
+
